@@ -6,14 +6,20 @@ body {
 }
 
 header {
-    background: #c7d77a;
-    padding: 50px;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+    padding: 80px 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 .hero {

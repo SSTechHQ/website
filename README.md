@@ -1,30 +1,34 @@
-# ⚡ SSTech Website
+# 🌐 SSTech Website
 
 Official website for SSTech.
 
+## About
+
+SSTech is a technology organization focused on:
+
+- AI Tools
+- Productivity Software
+- Applications
+- Games
+
 ## Mission
 
-Innovate. Create. Inspire.
-
-## About SSTech
-
-SSTech is a technology organization founded by Shreyansh and Shriyukt.
-
-We build AI-powered productivity tools, innovative applications, and enjoyable games that help people work smarter and have fun.
-
-## Website Goals
-
-- Showcase SSTech
-- Highlight projects
-- Present the team
-- Share updates
+To create impactful technology that empowers people through productivity, innovation, and creativity.
 
 ## Current Project
 
 ### Task Tracker
+A smart task management platform designed to help people stay organized effortlessly.
 
-A smart task manager that helps people stay organized effortlessly.
+## Team
+
+- Shreyansh — CEO & Founder
+- Shriyukt — Co-Founder
+
+## Motto
+
+⚡ Innovate. Create. Inspire.
 
 ---
 
-© 2026 SSTech
+Built with ❤️ by SSTech.

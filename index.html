@@ -7,13 +7,24 @@
 </head>
 <body>
 
+<nav>
+    <div class="logo">⚡ SSTech</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Team</a></li>
+    </ul>
+</nav>
+    
     <header>
         <h1>⚡ SSTech</h1>
         <p>Innovate. Create. Inspire.</p>
         <a href="#projects" class="btn">Explore Projects</a>
     </header>
 
-    <section class="hero">
+<section id="about" class="hero">
         <h2>Building the Future Through Software and Innovation</h2>
         <p>
             SSTech develops AI tools, productivity software,
@@ -44,8 +55,8 @@
     </div>
 </section>
 
-    <section>
-        <h2>Leadership</h2>
+   <section id="team">
+    <h2>Leadership</h2>
         <p><strong>Shreyansh</strong> — CEO & Founder</p>
         <p><strong>Shriyukt</strong> — Co-Founder</p>
     </section>
@@ -55,6 +66,35 @@
     </footer>
 
     <script src="script.js"></script>
+nav {
+    background: #111827;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+    
 </body>
 </html>

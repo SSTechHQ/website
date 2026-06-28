@@ -1,109 +1,129 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f5f7fa;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSTech | Innovate. Create. Inspire.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-    background: linear-gradient(135deg, #0f172a, #1e3a8a);
-    color: white;
-    padding: 80px 20px;
-    text-align: center;
-}
+<nav>
+    <div class="logo">⚡ SSTech</div>
 
-header h1 {
-    margin: 0;
-    font-size: 4rem;
-}
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-header p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
+<header id="home">
+    <h1>⚡ SSTech</h1>
+    <p>Innovate. Create. Inspire.</p>
 
-.hero {
-    text-align: center;
-    padding: 40px;
-}
+    <p class="hero-text">
+        Building AI-powered productivity tools,
+        innovative applications, and enjoyable games.
+    </p>
 
-section {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-}
+    <a href="#projects" class="btn">Explore Projects</a>
+</header>
 
-ul {
-    line-height: 2;
-}
+<section id="about">
+    <h2>About SSTech</h2>
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #1f2937;
-    color: white;
-}
+    <p>
+        SSTech is a technology organization founded by
+        <strong>Shreyansh</strong> and <strong>Shriyukt</strong>.
+    </p>
 
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 24px;
-    background: #1f2937;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: 0.3s;
-}
+    <p>
+        Our mission is to create impactful technology that helps
+        people stay productive, organized, and inspired.
+    </p>
+</section>
 
-.btn:hover {
-    transform: scale(1.05);
-}
+<section>
+    <h2>Our Focus Areas</h2>
 
-.project-card {
-    background: #ffffff;
-    padding: 25px;
-    border-radius: 12px;
-    border: 3px solid #1e3a8a;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    transition: 0.3s;
-}
+    <div class="cards">
 
-.project-card:hover {
-    transform: translateY(-5px);
-}
+        <div class="card">
+            <h3>🤖 AI Tools</h3>
+            <p>Smart AI applications for everyday productivity.</p>
+        </div>
 
-nav {
-    background: #111827;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-}
+        <div class="card">
+            <h3>📋 Productivity</h3>
+            <p>Software that helps users work smarter.</p>
+        </div>
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    margin: 0;
-    padding: 0;
-}
+        <div class="card">
+            <h3>📱 Apps</h3>
+            <p>Modern web and mobile applications.</p>
+        </div>
 
-nav li {
-    list-style: none;
-}
+        <div class="card">
+            <h3>🎮 Games</h3>
+            <p>Fun, creative, and innovative gaming experiences.</p>
+        </div>
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+    </div>
+</section>
 
-nav a:hover {
-    color: #93c5fd;
-}
+<section id="projects">
+    <h2>Current Project</h2>
 
-.logo {
-    font-size: 1.3rem;
-    font-weight: bold;
-}
+    <div class="project-card">
+        <h3>📋 Task Tracker</h3>
+
+        <p>
+            A smart task manager that helps people stay organized effortlessly.
+        </p>
+
+        <p><strong>Status:</strong> 🚀 In Development</p>
+    </div>
+</section>
+
+<section id="team">
+    <h2>Leadership</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Shreyansh</h3>
+            <p>CEO & Founder</p>
+        </div>
+
+        <div class="card">
+            <h3>Shriyukt</h3>
+            <p>Co-Founder</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>GitHub Organization:</p>
+
+    <p>
+        <a href="https://github.com/SSTechHQ">
+            github.com/SSTechHQ
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 SSTech</p>
+    <p>Innovate. Create. Inspire.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
